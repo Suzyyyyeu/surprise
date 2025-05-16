@@ -1,15 +1,18 @@
-
 body {
     margin: 0;
     padding: 0;
     background-color: #ffedf5;
     font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    justify-content: center;  /* centraliza horizontal */
+    align-items: center;      /* centraliza vertical */
+    height: 100vh;            /* ocupa toda altura da janela */
     overflow-x: hidden;
+    flex-direction: column;   /* itens organizados em coluna */
+    text-align: center;       /* texto centralizado */
 }
 
 .container {
-    text-align: center;
-    margin-top: 50px;
     position: relative;
     z-index: 2;
 }
@@ -24,6 +27,7 @@ body {
     width: 200px;
     cursor: pointer;
     transition: transform 0.3s;
+    margin: 0 auto;  /* centraliza a imagem */
 }
 
 .carta:hover {
