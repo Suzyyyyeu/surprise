@@ -93,3 +93,22 @@ body {
         opacity: 0;
     }
 }
+/* Aumentar fontes no celular */
+@media (max-width: 600px) {
+    .instrucoes p {
+        font-size: 28px;
+    }
+
+    .mensagem p {
+        font-size: 32px;
+    }
+
+    .mensagem img {
+        width: 90vw;
+    }
+
+    .carta {
+        width: 220px;
+    }
+}
+
