@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: 100dvh; /* mais confiável em mobile */
+    min-height: 100dvh;
     overflow-x: hidden;
     position: relative;
 }
@@ -24,14 +24,14 @@ body {
 }
 
 .instrucoes p {
-    font-size: 32px;
+    font-size: 40px;
     color: #d60087;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 0 10px;
 }
 
 .carta {
-    width: 220px;
+    width: 240px;
     cursor: pointer;
     transition: transform 0.3s;
     margin: 0 auto;
@@ -43,21 +43,23 @@ body {
 
 .mensagem {
     display: none;
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 0 10px;
 }
 
 .mensagem p {
-    font-size: 38px;
+    font-size: 48px;
     color: #e60073;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 .mensagem img {
-    width: 300px;
+    width: 340px;
     border-radius: 15px;
-    box-shadow: 0 0 10px #ffaad4;
-    max-width: 90vw;
+    box-shadow: 0 0 12px #ffaad4;
+    max-width: 95vw;
 }
 
 /* corações */
@@ -74,7 +76,7 @@ body {
 
 .coracao {
     position: absolute;
-    font-size: 24px;
+    font-size: 28px;
     animation: subir 4s linear infinite;
     color: #ff4da6;
     opacity: 0.7;
