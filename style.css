@@ -1,33 +1,40 @@
-body {
+html, body {
     margin: 0;
     padding: 0;
     background-color: #ffedf5;
     font-family: 'Comic Sans MS', cursive, sans-serif;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+body {
     display: flex;
-    justify-content: center;  /* centraliza horizontal */
-    align-items: center;      /* centraliza vertical */
-    height: 100vh;            /* ocupa toda altura da janela */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100dvh; /* melhor para mobile que 100vh */
     overflow-x: hidden;
-    flex-direction: column;   /* itens organizados em coluna */
-    text-align: center;       /* texto centralizado */
+    position: relative;
 }
 
 .container {
-    position: relative;
     z-index: 2;
+    padding: 20px;
 }
 
 .instrucoes p {
     font-size: 24px;
     color: #d60087;
     margin-bottom: 20px;
+    padding: 0 10px;
 }
 
 .carta {
     width: 200px;
     cursor: pointer;
     transition: transform 0.3s;
-    margin: 0 auto;  /* centraliza a imagem */
+    margin: 0 auto;
 }
 
 .carta:hover {
@@ -37,6 +44,7 @@ body {
 .mensagem {
     display: none;
     margin-top: 30px;
+    padding: 0 10px;
 }
 
 .mensagem p {
@@ -49,6 +57,7 @@ body {
     width: 300px;
     border-radius: 15px;
     box-shadow: 0 0 10px #ffaad4;
+    max-width: 90vw;
 }
 
 /* corações */
