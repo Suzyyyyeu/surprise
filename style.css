@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #ffedf5;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Pacifico', cursive;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -24,7 +24,7 @@ body {
 }
 
 .instrucoes p {
-    font-size: 68px;
+    font-size: 75px;
     color: #d60087;
     margin-bottom: 30px;
     padding: 0 10px;
@@ -48,7 +48,7 @@ body {
 }
 
 .mensagem p {
-    font-size: 68px;
+    font-size: 75px;
     color: #e60073;
     margin-bottom: 30px;
     font-weight: bold;
